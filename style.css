@@ -1,7 +1,62 @@
+/* background-color */
 .bg-white{
     background-color: white;
 }
 
-mh-200{
+.bg-lightgrey{
+    background-color: #f3f5f9;
+}
+
+.sfondo-pesci{
+    background-image: url("img/bg-banner-home.jpg");
+    background-size: cover;
+}
+
+.bg-blue{
+    background-color: #0028a2;
+}
+
+.bg-darker-blue{
+    background-color: #031c4e;
+}
+
+.mh-200{
     min-height: 200px;
+}
+
+.w-200px{
+    width: 100px;
+}
+
+.my-header-img-container{
+    max-width: 200px;
+}
+
+nav a{
+    color: black;
+}
+
+.va-center{
+    vertical-align: center;
+}
+
+.text-a{
+    text-align: center;
+}
+
+.p-50{
+    padding: 50px;
+}
+
+.br-5{
+    border-radius: 5px;
+}
+
+/* colore testo */
+.text-color-w{
+    color: white;
+}
+
+.text-color-dg{
+    color: lightgrey;
 }
