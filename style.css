@@ -170,14 +170,17 @@ footer p{
 
 .notifiche-shark{
     position:absolute;
-    top: 0;
-    right: 0;
+    top: -7px;
+    right: -7px;
     background-color: red;
     border: 2px solid white;
+    color: white;
     border-radius: 50%;
     width: 20px;
     height: 20px;
+    line-height: 16px;
     text-align: center;
+    vertical-align: middle;
 }
 
 .my-btn-primary-g{
@@ -196,14 +199,28 @@ footer p{
     width: 100%;
 }
 
-.h-auto{
-    height: ;
+.w-70{
+    width: 70%;
 }
 
-.w-auto{
-    width: auto;
+w-10{
+    width: 10%;
 }
+
+
 
 .fs-50{
     font-size: 50px;
+}
+
+.f-right{
+    float: right;
+}
+
+@media screen and (max-width: 768px) {   
+    .my-img-container-6{
+        width: calc(100% / 2 - 10px);
+        display: inline-block;
+    }
+    
 }
